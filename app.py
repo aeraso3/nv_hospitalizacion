@@ -33,9 +33,9 @@ def predict():
     
     def statement():
         if pred == 1:
-            return 'Resultado:- El modelo ha pronosticado con un 72 &#37; de exactitud que los síntomas descritos no conllevan una hospitalización pero debe cuidarse.'
+            return 'Resultado:- El modelo ha pronosticado con un 72% de exactitud que los síntomas descritos no conllevan una hospitalización pero debe cuidarse.'
         elif pred == 2:
-            return 'Resultado:- El modelo ha pronosticado con un 72 &#37; de exactitud que los síntomas descritos conllevan una hospitalización.'
+            return 'Resultado:- El modelo ha pronosticado con un 72% de exactitud que los síntomas descritos conllevan una hospitalización.'
     
     return render_template('new.html',statement=statement())
 
